@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.my_nav .navbar-brand {
+  color: #fff;
+  font-weight: bold;
+}
+.my_nav .nav-link {
+  color: #fff !important;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0 10px;
+}
+.navbar.fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+.navbar.fixed-top.scrolled .nav-link,
+.navbar.fixed-top.scrolled .navbar-brand {
+  color: #273c75 !important;
+}
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #273c75;
+  color: #fff;
+}
+.home h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+.hure_me p {
+  font-size: 15px;
+  margin-top: 10px;
+}
+.hure_me button {
+  background-color: #273c75 !important;
+  border: 0;
+  padding: 5px 30px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+footer .icon i {
+  font-size: 2em;
+  cursor: pointer;
+}
